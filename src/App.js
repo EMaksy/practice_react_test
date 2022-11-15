@@ -1,9 +1,17 @@
 import './App.css';
+import React from 'react';
+import NewButton from './components/NewButton/NewButton';
+const title = "Hello testing world"
 
 function App() {
+  
   return (
-    <h1>Hello TEST DRIVEN DEVELOPMENT</h1>
-  );
+  <div>{title}
+  <br>
+  </br>
+  <NewButton></NewButton>
+  </div>
+  )
 }
 
 export default App;
